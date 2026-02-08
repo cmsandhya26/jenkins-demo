@@ -8,15 +8,15 @@ pipeline{
       }
     }
 
-  stage('Build'){
-    steps{
-      echo 'Build stage running'
+    stage('Build'){
+      steps{
+        echo 'Build stage running'
+      }
     }
-  }
 
-  stage('Test'){
-    steps{
-      echo 'Test stage running'
+    stage('Test'){
+      steps{
+        echo 'Test stage running'
+      }
     }
   }
-}
